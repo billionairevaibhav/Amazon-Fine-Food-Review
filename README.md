@@ -26,7 +26,7 @@ Number of Attributes/Columns in data: 10
  7.   Score - rating between 1 and 5
  8.   Time - timestamp for the review
  9.   Summary - brief summary of the review
- 10.   Text - text of the review
+ 10.  Text - text of the review
 
 
 ## Decision Trees
@@ -36,5 +36,12 @@ Number of Attributes/Columns in data: 10
  2.   Used both Grid Search with random 30 points for getting the best max_depth
  3.   Evaluated the test data on various performance metrics like accuracy, f1-score, precision, recall,etc. also plotted Confusion matrix using seaborne
  4.   Plotted feature importance recieved from the decision tree classifier
+
+## Conclusions:
+
+1.  BOW Featurization(max_depth=8) gave the best results with accuracy of 85.8% and F1-score of 0.858.
+2.  Decision Trees on BOW and tfidf would have taken forever if had taken all the dimensions as it had huge dimension and hence tried with max 8 as max_depth
+
+
 
 
